@@ -28,18 +28,18 @@ export default function App() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="group relative px-8 py-4 bg-gradient-to-r from-[#38BDF8] to-[#2DD4BF] rounded-xl overflow-hidden transition-transform hover:scale-105">
+            <a href="https://disk.yandex.ru/d/9fOKzXD90Oxh6g" target="_blank" rel="noopener noreferrer" className="group relative px-8 py-4 bg-gradient-to-r from-[#38BDF8] to-[#2DD4BF] rounded-xl overflow-hidden transition-transform hover:scale-105">
               <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
               <div className="relative flex items-center gap-2 justify-center">
                 <Video className="w-5 h-5" />
                 Смотреть демо
               </div>
-            </button>
+            </a>
             
-            <button className="px-8 py-4 bg-white/5 border border-[#38BDF8]/30 rounded-xl backdrop-blur-sm hover:bg-white/10 hover:border-[#38BDF8]/50 transition-all flex items-center gap-2 justify-center">
+            <a href="https://github.com/Netall0/Dreamscape" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-white/5 border border-[#38BDF8]/30 rounded-xl backdrop-blur-sm hover:bg-white/10 hover:border-[#38BDF8]/50 transition-all flex items-center gap-2 justify-center">
               <Github className="w-5 h-5" />
               Открыть на GitHub
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function App() {
       {/* Demo Video Section */}
       <section className="px-4 py-20">
         <div className="max-w-5xl mx-auto">
-          <div className="relative aspect-video bg-gradient-to-br from-[#38BDF8]/10 to-[#2DD4BF]/10 rounded-2xl border border-[#38BDF8]/20 overflow-hidden group cursor-pointer">
+          <a href="https://disk.yandex.ru/d/9fOKzXD90Oxh6g" target="_blank" rel="noopener noreferrer" className="block relative aspect-video bg-gradient-to-br from-[#38BDF8]/10 to-[#2DD4BF]/10 rounded-2xl border border-[#38BDF8]/20 overflow-hidden group cursor-pointer">
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="relative">
                 <div className="absolute inset-0 bg-[#38BDF8] blur-3xl opacity-50 group-hover:opacity-70 transition-opacity"></div>
@@ -57,7 +57,7 @@ export default function App() {
               </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#0F1B35] via-transparent to-transparent opacity-60"></div>
-          </div>
+          </a>
         </div>
       </section>
 
@@ -88,7 +88,7 @@ export default function App() {
             />
             <FeatureCard
               icon={<BookOpen className="w-6 h-6" />}
-              title="Дневник сна"
+              title="Дневни�� сна"
               description="Отслеживание привычек и факторов влияющих на сон"
               color="#2DD4BF"
             />
@@ -175,14 +175,14 @@ export default function App() {
               icon={<Github className="w-8 h-8" />}
               title="Исходный код"
               description="Посмотреть на GitHub"
-              href="#"
+              href="https://github.com/Netall0/Dreamscape"
               color="#38BDF8"
             />
             <LinkCard
               icon={<Video className="w-8 h-8" />}
               title="Демо видео"
               description="Полный обзор приложения"
-              href="#"
+              href="https://disk.yandex.ru/d/9fOKzXD90Oxh6g"
               color="#2DD4BF"
             />
           </div>
@@ -203,7 +203,7 @@ export default function App() {
             </p>
             
             <div className="flex gap-6">
-              <a href="#" className="text-gray-400 hover:text-[#38BDF8] transition-colors">GitHub</a>
+              <a href="https://github.com/Netall0/Dreamscape" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#38BDF8] transition-colors">GitHub</a>
             </div>
           </div>
         </div>
